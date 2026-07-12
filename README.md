@@ -53,4 +53,10 @@ requirements.txt
 
 ## Author
 
-UPPALA VINAY
+**UPPALA VINAY**
+
+Electronics and Communication Engineering (ECE) student with an interest in IoT, Embedded Systems, Python, Web Development, and Artificial Intelligence. Passionate about building practical projects and continuously improving software development and problem-solving skills.
+
+- GitHub: https://github.com/23kd1a04i0-lgtm
+- Live Project: https://your-render-link.onrender.com
+- LinkedIn: www.linkedin.com/in/uppala-vinay-16a9b72b0
