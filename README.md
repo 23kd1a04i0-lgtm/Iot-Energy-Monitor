@@ -1,7 +1,7 @@
 # IoT Smart Energy Monitoring System
 
 ## Live Demo
-https://YOUR-RENDER-LINK.onrender.com
+https://iot-energy-monitor-glfw.onrender.com
 
 ## Overview
 This is a Flask-based IoT Smart Energy Monitoring System that helps monitor energy consumption through a modern web dashboard.
