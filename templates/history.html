@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Sensor History</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Sensor History</h1>
+
+<table border="1" cellpadding="10" cellspacing="0">
+
+<tr>
+
+<th>Voltage</th>
+
+<th>Current</th>
+
+<th>Power</th>
+
+<th>Energy</th>
+
+<th>Cost</th>
+
+<th>Time</th>
+
+</tr>
+
+{% for row in records %}
+
+<tr>
+
+<td>{{ row[0] }}</td>
+
+<td>{{ row[1] }}</td>
+
+<td>{{ row[2] }}</td>
+
+<td>{{ row[3] }}</td>
+
+<td>{{ row[4] }}</td>
+
+<td>{{ row[5] }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br><br>
+
+<a href="/export/csv">
+    <button>📥 Download CSV Report</button>
+</a>
+
+<a href="/">
+
+<button>Home</button>
+<br><br>
+
+<a href="/export/pdf">
+
+<button>
+
+📄 Download PDF Report
+
+</button>
+
+</a>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
